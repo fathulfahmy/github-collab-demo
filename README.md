@@ -1,4 +1,4 @@
-#Github Collaboration Guide
+# Github Collaboration Guide
 GitHub colllaboration repository setup and workflow for beginners
 
 ### Prerequisites
