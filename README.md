@@ -1,88 +1,115 @@
-# Github Collaboration Guide
-GitHub colllaboration repository setup and workflow for beginners
+<h1>GitHub in VS Code</h1>
 
-### Prerequisites
+<h2>Setup</h2>
 
-Please install `Visual Studio Code` and `Git`
-
-## Initial setup
-
-Link VS Code with GitHub
-
+<h3>Prerequisites</h3>
 <ol>
-<li>Open VS Code extension from the left sidebar or <code>ctrl+shift+x</code></li>
-<li>Search <code>Github Pull Requests and Issues</code> and install extesnion</li>
-<li>Click on github icon from the left sidebar</li>
-<li>Click Sign In button</li>
-<li>Sign in wtih your GitHub account</li>
-<li>Your VS Code is now linked with your GitHub account!</li>
+  <li>Create <a href="https://github.com/">GitHub</a> account</li>
+  <li>Install <a href="https://git-scm.com/downloads">Git</a></li>
+  <li>Install <a href="https://code.visualstudio.com/">VS Code Stable</a></li>
+  <li>
+    Install
+    <a href="vscode:extension/GitHub.vscode-pull-request-github"
+      >GitHub Pull Requests and Issues VS Code extension</a
+    >
+  </li>
 </ol>
 
-Clone github repository
-
+<h3>Clone repository to local folder</h3>
 <ol>
-<li>Open VS Code</li>
-<li>Open command palette <code>ctrl+shift+p</code></li>
-<li>Type <code>git clone</code> and select <code>Git: Clone</code></li>
-<li>Select <code>Clone from GitHub</code></li>
-<li>Type <code>username/repository-name</code></li>
-<li>Select location to store shared code</li>
-<li>You have just copied a folder from GitHub and store it in your computer!</li>
+  <li>Open VS Code</li>
+  <li>Open Command Palette <code>Ctrl+Shift+P</code></li>
+  <li>Type <code>git clone</code> and hit <code>enter</code></li>
+  <li>Select <code>Clone from GitHub</code></li>
+  <li>Type <code>username/repository-name</code></li>
+  <li>
+    Click <code>Allow</code> if
+    <code>The extension 'GitHub' wants to sign in using GitHub.</code> (else
+    skip step 6 and 7)
+  </li>
+  <li>Sign in with your GitHub account</li>
+  <li>Select location to store repository</li>
+  <li>You have successfully cloned an online repository to local desktop!</l>
 </ol>
 
-Open folder in VS Code
+<h2>Rinse and repeat workflow</h2>
 
+<h3>Open cloned repository</h3>
 <ol>
-<li>Open VS Code</li>
-<li>Select <code>File</code> on top left corner</li>
-<li>Select <code>Open Folder...</code></li>
-<li>Select folder that you have cloned</li>
+  <li>Open VS Code</li>
+  <li>Select <code>File</code> on top left corner</li>
+  <li>Select <code>Open Folder...</code></li>
+  <li>Select location of stored repository</li>
 </ol>
 
-Create branch
-
+<h3>Create a feature branch</h3>
 <ol>
-<li>Click synchronize button on bottom left corner beside <code>main</code></li>
-<li>Click <code>main</code></li>
-<li>Select <code>Create new branch...</code></li>
-<li>Enter <code>feature/Your username</code></li>
-<li>Click publish branch button on bottom left corner beside <code>feature/Your username</code></li>
-<li>Click branch name on bottom left corner to switch branches</li>
+  <li>Make sure you are in branch <code>main</code> on bottom left corner</li>
+  <li>Click sync branch button on right side of <code>main</code></li>
+  <li>
+    Click <code>OK</code> if
+    <code
+      >This action will pull and push commits from and to "origin/main"</code
+    >
+    (else skip this step)
+  </li>
+  <li>Select <code>Create new branch...</code></li>
+  <li>Type <code>feature/feature-name</code> and hit <code>enter</code></li>
+  <li>
+    Click publish branch button on bottom left corner and right side of
+    <code>feature/feature-name</code>
+  </li>
+  <li>You have successfully created a feature branch!</li>
 </ol>
 
-Congratulations! You have just learned how to setup github for collaboration. You are now able to collaborate with others in GitHub.
-
-## Workflow
-
-Update repository to the latest change
-
+<h3>Make changes on feature branch</h3>
 <ol>
-<li>Switch to <code>feature/Your username</code> branch</li>
-<li>Open command palette<code>ctrl+shift+p</code></li>
-<li>Type<code>git stash</code> and select <code>Git: Stash</code></li>
-<li>Hit <code>enter</code> and select <code>Save All & Stash</code></li>
-<li>Switch to <code>main</code> branch</li>
-<li>Click synchronize button</li>
-<li>Switch to <code>feature/Your username</code></li>
-<li>Click synchronize button</li>
-<li>Open command palette<code>ctrl+shift+p</code></li>
-<li>Type <code>git pop stash</code> and select <code>Git: Pop Stash...</code></li>
+  <li>
+    Make sure you are in branch <code>feature/feature-name</code> on bottom left
+    corner
+  </li>
+  <li>Make changes (create, edit, delete files)</li>
 </ol>
 
-Push your changes to main
-
+<h3>Push feature branch to main branch</h3>
 <ol>
-<li>Update repository to the latest change before push</li>
-<li>Open source control from the left sidebar or <code>ctrl+shift+g</code></li>
-<li>Hover <code>Changes</code> and click <code>+</code> to stage all changes</li>
-<li>Type commit message above commit button (Do not skip this step!)</li>
-<li>Click Commit button</li>
-<li>Click Sync Changes button</li>
-<li>Open GitHub from the left sidebar</li>
-<li>Hover <code>CREATE PULL REQUESTS</code> and click <code>Create Pull Request</code></li>
-<li>Make sure <code>base</code> is <code>main</code> and <code>merge</code> is <code>feature/Your username</code></li>
-<li>Click Create button</li>
-<li>(If you skip step 4, it will open a file. Close the file and continue from step 4.)</li>
+  <li>Only push feature branch when your feature is complete</li>
+  <li>
+    Make sure you are in branch <code>feature/feature-name</code> on bottom left
+    corner
+  </li>
+  <li>Click source control on left sidebar or <code>Ctrl+Shift+G</code></li>
+  <li>
+    Hover <code>Changes</code> and click <code>+</code> stage all changes button
+  </li>
+  <li>
+    Click <code>Message</code> input box above <code>/ Commit</code> button
+  </li>
+  <li>Type <code>feat: add feature-name</code></li>
+  <li>Click <code>/ Commit</code> button</li>
+  <li>Click GitHub on left sidebar</li>
+  <li>Hover <code>PULL REQUESTS</code></li>
+  <li>Click <code>Create Pull Request</code> button</li>
+  <li>
+    Make sure <code>base</code> is <code>main</code> and <code>merge</code> is
+    <code>feature/feature-name</code>
+  </li>
+  <li>Click <code>Create</code></li>
+  <li>You have successfully pushed a feature branch to main branch!</li>
 </ol>
 
-Congratulations! You are now a GitHub collaborator.
+<h4>Congratulations. You are now a GitHub collaborator!</h4>
+
+<h3>References</h3>
+<ol>
+  <li>
+    <a href="https://code.visualstudio.com/docs/sourcecontrol/github">
+      Introduction to Git in VS Code
+    </a>
+  </li>
+  <li>
+    <a href="https://code.visualstudio.com/docs/sourcecontrol/intro-to-git">
+      Working with GitHub in VS Code
+    </a>
+  </li>
+</ol>
