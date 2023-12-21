@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 GitHub colllaboration repository demo for beginners
 
 ### Prerequisites
@@ -83,3 +84,5 @@ Push your changes to main
 </ol>
 
 Congratulations! You are now a GitHub collaborator.
+=======
+>>>>>>> 1bd4643c6f72b5d27a36ba97aafdc7a625e1c9de
