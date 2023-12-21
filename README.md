@@ -21,7 +21,7 @@ Clone github repository
 
 <ol>
 <li>Open VS Code</li>
-<li>Open command pallette <code>ctrl+shift+p</code></li>
+<li>Open command palette <code>ctrl+shift+p</code></li>
 <li>Type <code>git clone</code> and select <code>Git: Clone</code></li>
 <li>Select <code>Clone from GitHub</code></li>
 <li>Type <code>username/repository-name</code></li>
@@ -57,14 +57,16 @@ Update repository to the latest change
 
 <ol>
 <li>Switch to <code>feature/Your username</code> branch</li>
-<li>Open command pallette<code>ctrl+shift+p</code></li>
+<li>Open command palette<code>ctrl+shift+p</code></li>
 <li>Type<code>git stash</code> and select <code>Git: Stash</code></li>
 <li>Hit <code>enter</code> and select <code>Save All & Stash</code></li>
 <li>Switch to <code>main</code> branch</li>
 <li>Click synchronize button</li>
 <li>Switch to <code>feature/Your username</code></li>
-<li>Click synchronize button</li>
-<li>Open command pallette<code>ctrl+shift+p</code></li>
+<li>Open command palette<code>ctrl+shift+p</code></li>
+<li>Type <code>git rebase</code> and select <code>Git: Rebase branch...</code></li>
+<li>Select <code>main</code></li>
+<li>Open command palette<code>ctrl+shift+p</code></li>
 <li>Type <code>git pop stash</code> and select <code>Git: Pop Stash...</code></li>
 </ol>
 
