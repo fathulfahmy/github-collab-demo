@@ -78,7 +78,7 @@ Push your changes to main
 <li>Type commit message above commit button (Do not skip this step!)</li>
 <li>Click Commit button</li>
 <li>Click Sync Changes button</li>
-<li>Open GitHub from the left sidebar<code>ctrl+shift+g</code></li>
+<li>Open GitHub from the left sidebar</li>
 <li>Hover <code>CREATE PULL REQUESTS</code> and click <code>Create Pull Request</code> to stage all changes</li>
 <li>Make sure <code>base</code> is <code>main</code> and <code>merge</code> is <code>feature/Your username</code></li>
 <li>Click Create button</li>
