@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-GitHub colllaboration repository demo for beginners
+#Github Collaboration Guide
+GitHub colllaboration repository setup and workflow for beginners
 
 ### Prerequisites
 
@@ -64,9 +64,7 @@ Update repository to the latest change
 <li>Switch to <code>main</code> branch</li>
 <li>Click synchronize button</li>
 <li>Switch to <code>feature/Your username</code></li>
-<li>Open command palette<code>ctrl+shift+p</code></li>
-<li>Type <code>git rebase</code> and select <code>Git: Rebase branch...</code></li>
-<li>Select <code>main</code></li>
+<li>Click synchronize button</li>
 <li>Open command palette<code>ctrl+shift+p</code></li>
 <li>Type <code>git pop stash</code> and select <code>Git: Pop Stash...</code></li>
 </ol>
@@ -80,9 +78,11 @@ Push your changes to main
 <li>Type commit message above commit button (Do not skip this step!)<code></code></li>
 <li>Click Commit button</li>
 <li>Click Sync Changes button</li>
+<li>Open GitHub from the left sidebar<code>ctrl+shift+g</code></li>
+<li>Hover <code>CREATE PULL REQUESTS</code> and click <code>Create Pull Request</code> to stage all changes</li>
+<li>Make sure <code>base</code> is <code>main</code> and <code>merge</code> is <code>feature/Your username</code></li>
+<li>Click Create button</li>
 <li>(If you skip step 4, it will open a file. Close the file and continue from step 4.)</li>
 </ol>
 
 Congratulations! You are now a GitHub collaborator.
-=======
->>>>>>> 1bd4643c6f72b5d27a36ba97aafdc7a625e1c9de
