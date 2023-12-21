@@ -75,7 +75,7 @@ Push your changes to main
 <li>Update repository to the latest change before push</li>
 <li>Open source control from the left sidebar or <code>ctrl+shift+g</code></li>
 <li>Hover <code>Changes</code> and click <code>+</code> to stage all changes</li>
-<li>Type commit message above commit button (Do not skip this step!)<code></code></li>
+<li>Type commit message above commit button (Do not skip this step!)</li>
 <li>Click Commit button</li>
 <li>Click Sync Changes button</li>
 <li>Open GitHub from the left sidebar<code>ctrl+shift+g</code></li>
