@@ -13,6 +13,14 @@
       >GitHub Pull Requests and Issues VS Code extension</a
     >
   </li>
+  <li>Receive invitation to be added as collaborator of a repository</li>
+</ol>
+
+<h3>Accept collaboration invitation</h3>
+<ol>
+  <li>Open browser</li>
+  <li>Open <code>https://github.com/username/repo-name</code></li>
+  <li>Accept invitation to be added as collaborator of the repository</li>
 </ol>
 
 <h3>Clone repository to local folder</h3>
@@ -48,8 +56,8 @@
 <h3>Create a feature branch</h3>
 <ol>
   <li>Make sure you are in branch <code>main</code> on bottom left corner</li>
-  <li>Click sync branch button on right side of <code>main</code></li>
   <img src="assets/readme/main-branch.png" alt="">
+  <li>Click Sync Branch button on right side of <code>main</code> (cycle arrow icon)</li>
   <li>
     Click <code>OK</code> if
     <code
@@ -58,15 +66,19 @@
     (else skip this step)
   </li>
   <img src="assets/readme/pull-push-main.png" alt="">
+  <li>Click <code>main</code> branch on bottom left corner</li>
+
   <li>Select <code>Create new branch...</code></li>
   <img src="assets/readme/create-branch.png" alt="">
   <li>Type <code>feature/feature-name</code> and hit <code>enter</code></li>
   <img src="assets/readme/create-branch-2.png" alt="">
   <li>
-    Click publish branch button on bottom left corner and right side of
-    <code>feature/feature-name</code>
+    Click Publish Branch button on bottom left corner and right side of
+    <code>feature/feature-name</code> (cloud with arrow icon) 
   </li>
   <img src="assets/readme/publish-branch.png" alt="">
+  <li>Click <code>Close</code> button if <code>Would you like to create a Pull Request for branch 'feature/feature-name?'</code> (else skip this step)</li>
+  <img src="assets/readme/create-branch-3.png" alt="">
   <li>You have successfully created a feature branch!</li>
 </ol>
 
@@ -91,29 +103,29 @@
   <li>Click source control on left sidebar or <code>Ctrl+Shift+G</code></li>
   <img src="assets/readme/source-control.png" alt="">
   <li>
-    Hover <code>Changes</code> and click <code>+</code> stage all changes button
+    Hover <code>Changes</code> and click <code>+</code> Stage All Changes button
   </li>
   <img src="assets/readme/stage-changes.png" alt="">
   <li>
     Click <code>Message</code> input box above <code>/ Commit</code> button
   </li>
   <li>Type <code>feat: add feature-name</code></li>
-  <li>Click <code>/ Commit</code> button</li>
   <img src="assets/readme/commit-message.png" alt="">
+  <li>Click <code>/ Commit</code> button</li>
   <li>Click <code>Sync Changes</code> button</li>
   <img src="assets/readme/sync-changes.png" alt="">
   <li>Click <code>OK</code> if <code>This action will pull and push commits from and to "origin/feature/feature-name"</code>(else skip this step)</li>
   <img src="assets/readme/pull-push-feature.png" alt="">
   <li>Click GitHub on left sidebar</li>
-  <li>Hover <code>PULL REQUESTS</code></li>
-  <li>Click <code>Create Pull Request</code> button</li>
   <img src="assets/readme/create-pr.png" alt="">
+  <li>Hover <code>PULL REQUESTS</code></li>
+  <li>Click <code>Create Pull Request</code> button (plus arrow dot icon)</li>
   <li>
     Make sure <code>base</code> is <code>main</code> and <code>merge</code> is
     <code>feature/feature-name</code>
   </li>
-  <li>Click <code>Create</code></li>
   <img src="assets/readme/create-pr-2.png" alt="">
+  <li>Click <code>Create</code></li>
   <li>You have successfully pushed a feature branch to main branch!</li>
   <img src="assets/readme/create-pr-3.png" alt="">
 </ol>
