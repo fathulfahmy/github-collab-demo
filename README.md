@@ -1,8 +1,21 @@
-<h1>GitHub in VS Code</h1>
+# GitHub in VS Code
 
-<h2>1.0 Setup</h2>
+- [1. Initial setup](#1-initial-setup)
+  - [1.1. Prerequisites](#11-prerequisites)
+  - [1.2. Accept collaboration invitation](#12-accept-collaboration-invitation)
+  - [1.3. Clone repository to local folder](#13-clone-repository-to-local-folder)
+- [2. Rinse and repeat workflow](#2-rinse-and-repeat-workflow)
+  - [2.1. Open cloned repository](#21-open-cloned-repository)
+  - [2.2. Create a feature branch](#22-create-a-feature-branch)
+  - [2.3. Make changes on feature branch](#23-make-changes-on-feature-branch)
+  - [2.4. Push feature branch to main branch](#24-push-feature-branch-to-main-branch)
+  - [2.5. Delete local branch after feature is approved](#25-delete-local-branch-after-feature-is-approved)
+- [3. References](#3-references)
 
-<h3>1.1 Prerequisites</h3>
+## 1. Initial setup
+
+### 1.1. Prerequisites
+
 <ol>
   <li>Create <a href="https://github.com/">GitHub</a> account</li>
   <li>Install <a href="https://git-scm.com/downloads">Git</a></li>
@@ -16,14 +29,15 @@
   <li>Receive invitation to be added as collaborator of a repository</li>
 </ol>
 
-<h3>1.2 Accept collaboration invitation</h3>
-<ol>
+### 1.2. Accept collaboration invitation
+
   <li>Open browser</li>
   <li>Open <code>https://github.com/username/repo-name</code></li>
   <li>Accept invitation to be added as collaborator of the repository</li>
 </ol>
 
-<h3>1.3 Clone repository to local folder</h3>
+### 1.3. Clone repository to local folder
+
 <ol>
   <li>Open VS Code</li>
   <li>Open Command Palette <code>Ctrl+Shift+P</code></li>
@@ -45,9 +59,10 @@
   <li>You have successfully cloned an online repository to local desktop!</li>
 </ol>
 
-<h2>2.0 Rinse and repeat workflow</h2>
+## 2. Rinse and repeat workflow
 
-<h3>2.1 Open cloned repository</h3>
+### 2.1. Open cloned repository
+
 <ol>
   <li>Open VS Code</li>
 
@@ -58,7 +73,8 @@
   <li>Select location of stored repository</li>
 </ol>
 
-<h3>2.2 Create a feature branch</h3>
+### 2.2. Create a feature branch
+
 <ol>
   <li>Make sure you are in branch <code>main</code> on bottom left corner</li>
   <img src="assets/readme/main-branch.png" alt="" />
@@ -96,7 +112,8 @@
   <li>You have successfully created a feature branch!</li>
 </ol>
 
-<h3>2.3 Make changes on feature branch</h3>
+### 2.3. Make changes on feature branch
+
 <ol>
   <li>
     Make sure you are in branch <code>feature/feature-name</code> on bottom left
@@ -106,7 +123,8 @@
   <li>Make changes (create, edit, delete files)</li>
 </ol>
 
-<h3>2.4 Push feature branch to main branch</h3>
+### 2.4. Push feature branch to main branch
+
 <ol>
   <li>Only push feature branch when your task is complete</li>
 
@@ -164,7 +182,8 @@
   <img src="assets/readme/create-pr-2.png" alt="" />
 </ol>
 
-<h3>2.5 Delete local branch after feature is approved</h3>
+### 2.5. Delete local branch after feature is approved
+
 <ol>
   <li>Make sure you are in branch <code>main</code> on bottom left corner</li>
   <img src="assets/readme/main-branch.png" alt="" />
@@ -178,9 +197,10 @@
   <img src="assets/readme/git-delete-branch-2.png" alt="" />
 </ol>
 
-<h4>Congratulations. You are now a GitHub collaborator!</h4>
+<b>Congratulations. You are now a GitHub collaborator!</b>
 
-<h2>3.0 References</h2>
+## 3. References
+
 <ol>
   <li>
     <a href="https://code.visualstudio.com/docs/sourcecontrol/intro-to-git">
