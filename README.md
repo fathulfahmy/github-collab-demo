@@ -111,6 +111,8 @@
   </li>
   <li>Type <code>feat: add feature-name</code></li>
   <img src="assets/readme/commit-message.png" alt="">
+  <li><code>COMMIT_EDITMSG</code> will open if you skip step 6. Close <code>COMMIT_EDITMSG</code> and do step 6. (else skip this)</li>
+  <img src="assets/readme/commit-no-message.png" alt="">
   <li>Click <code>/ Commit</code> button</li>
   <li>Click <code>Sync Changes</code> button</li>
   <img src="assets/readme/sync-changes.png" alt="">
@@ -128,6 +130,7 @@
   <li>Click <code>Create</code></li>
   <li>You have successfully pushed a feature branch to main branch!</li>
   <img src="assets/readme/create-pr-3.png" alt="">
+  <li>Repeat steps branch, change, push for every feature</li>
 </ol>
 
 <h4>Congratulations. You are now a GitHub collaborator!</h4>
@@ -135,12 +138,12 @@
 <h3>References</h3>
 <ol>
   <li>
-    <a href="https://code.visualstudio.com/docs/sourcecontrol/github">
+    <a href="https://code.visualstudio.com/docs/sourcecontrol/intro-to-git">
       Introduction to Git in VS Code
     </a>
   </li>
   <li>
-    <a href="https://code.visualstudio.com/docs/sourcecontrol/intro-to-git">
+    <a href="https://code.visualstudio.com/docs/sourcecontrol/github">
       Working with GitHub in VS Code
     </a>
   </li>
