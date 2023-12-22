@@ -29,12 +29,16 @@
   <li>Receive invitation to be added as collaborator of a repository</li>
 </ol>
 
+<hr>
+
 ### 1.2. Accept collaboration invitation
 
   <li>Open browser</li>
   <li>Open <code>https://github.com/username/repo-name</code></li>
   <li>Accept invitation to be added as collaborator of the repository</li>
 </ol>
+
+<hr>
 
 ### 1.3. Clone repository to local folder
 
@@ -72,6 +76,8 @@
   <li>Select <code>Open Folder...</code></li>
   <li>Select location of stored repository</li>
 </ol>
+
+<hr>
 
 ### 2.2. Create a feature branch
 
@@ -111,6 +117,8 @@
 
   <li>You have successfully created a feature branch!</li>
 </ol>
+
+<hr>
 
 ### 2.3. Make changes on feature branch
 
@@ -181,6 +189,8 @@
   </li>
   <img src="assets/readme/create-pr-2.png" alt="" />
 </ol>
+
+<hr>
 
 ### 2.5. Delete local branch after feature is approved
 
