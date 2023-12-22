@@ -30,7 +30,7 @@
 </ol>
 
 ### 1.2. Accept collaboration invitation
-
+<ol>
   <li>Open browser</li>
   <li>Open <code>https://github.com/username/repo-name</code></li>
   <li>Accept invitation to be added as collaborator of the repository</li>
