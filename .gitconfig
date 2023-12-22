@@ -1,3 +1,4 @@
+# vscode
 [core]
 	editor = code --wait --new-window
 [diff]
@@ -8,3 +9,9 @@
 	tool = vscode
 [mergetool "vscode"]
 	cmd = code --wait $MERGED
+
+# git
+[fetch]
+    prune = true
+[init]
+	defaultBranch = main
