@@ -166,6 +166,9 @@
 
 <h3>2.5 Delete local branch after feature is approved</h3>
 <ol>
+  <li>Make sure you are in branch <code>main</code> on bottom left corner</li>
+  <img src="assets/readme/main-branch.png" alt="" />
+
   <li>Open Command Palette <code>Ctrl+Shift+P</code></li>
 
   <li>Type <code>git delete branch</code> and hit <code>enter</code></li>
