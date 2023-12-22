@@ -10,8 +10,12 @@
 [mergetool "vscode"]
 	cmd = code --wait $MERGED
 
-# git
+# prune
 [fetch]
     prune = true
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*	
+	prune = true
+
 [init]
 	defaultBranch = main

@@ -130,12 +130,18 @@
   <li>Click <code>Create</code></li>
   <li>You have successfully pushed a feature branch to main branch!</li>
   <img src="assets/readme/create-pr-3.png" alt="">
-  <li>Repeat steps branch, change, push for every feature</li>
+</ol>
+
+<h3>Delete local branch after feature is approved</h3>
+<ol>
+  <li>Open Command Palette <code>Ctrl+Shift+P</code></li>
+  <li>Type <code>git delete branch</code> and hit <code>enter</code></li>
+  <li>Select <code>feature/feature-name</code> that has been approved</li>
 </ol>
 
 <h4>Congratulations. You are now a GitHub collaborator!</h4>
 
-<h3>References</h3>
+<h2>References</h2>
 <ol>
   <li>
     <a href="https://code.visualstudio.com/docs/sourcecontrol/intro-to-git">
